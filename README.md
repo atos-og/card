@@ -1,22 +1,38 @@
-# Cartão de Visita Digital - Atos Barros
+# Cartão de visita digital
 
-Projeto individual da Trilha Frontend da IbTech 2026.1.
+Esse projeto é uma landing page pessoal feita para o trabalho de Frontend do IbTech 2026.1.
 
-## Descrição
+A ideia foi criar um cartão de visitas digital para mim, Atos Barros, estudante de Ciência de Dados e IA, reunindo em uma página algumas informações básicas, links de contato, interesses, projetos e uma parte de mídia com fotos e vídeo.
 
-Landing page pessoal em formato de cartão de visita digital para Atos Barros, estudante de Ciência de Dados e IA. A página apresenta informações pessoais, links de contato, interesses técnicos, projetos, seção de mídia e interações em JavaScript puro.
+## O que tem na página
 
-## Tecnologias
+- Página em HTML, CSS e JavaScript puro
+- Navbar fixa com links para as seções
+- Destaque inicial com nome, descrição e um flip card interativo
+- Seção sobre mim
+- Seção de fotos e vídeo
+- Lista de skills/interesses
+- Cards de projetos e estudos
+- Links de contato
+- Tema claro e escuro
+- Animações simples ao rolar a página
+- Layout responsivo para celular
 
-- HTML5 semântico
-- CSS3 com variáveis, Grid, Flexbox, responsividade e tema claro/escuro
-- JavaScript vanilla com `IntersectionObserver`, `localStorage`, menu mobile e flip card
+## Tecnologias usadas
 
-## Como rodar
+- HTML5
+- CSS3
+- JavaScript puro
 
-Basta abrir o arquivo `index.html` no navegador ou usar a extensão Live Server no VS Code.
+Não usei framework, biblioteca externa, Bootstrap, Tailwind ou React.
 
-## Estrutura
+## Como abrir o projeto
+
+Para ver o site localmente, é só abrir o arquivo `index.html` no navegador.
+
+Também dá para abrir pelo VS Code usando a extensão Live Server.
+
+## Estrutura dos arquivos
 
 ```text
 .
@@ -31,8 +47,3 @@ Basta abrir o arquivo `index.html` no navegador ou usar a extensão Live Server 
     ├── foto-2.jpeg
     ├── foto-3.jpeg
     └── og-image.jpeg
-```
-
-## Observação sobre o vídeo
-
-A seção de mídia usa um iframe do YouTube. Caso algum vídeo apareça como indisponível, é porque o próprio YouTube ou o dono do vídeo bloqueou a reprodução incorporada em sites externos. Nesse caso, basta trocar o link por outro vídeo que permita incorporação.
